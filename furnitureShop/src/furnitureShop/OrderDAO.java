@@ -18,7 +18,7 @@ public class OrderDAO {
 		// 2. db연결
 		String url = "jdbc:mysql://localhost:3306/furniture_shop";
 		String user = "root";
-		String password = "";
+		String password = "1234";
 		Connection con = DriverManager.getConnection(url, user, password);
 		System.out.println("2. db connection success!!");
 
